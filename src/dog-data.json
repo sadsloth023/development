@@ -1,0 +1,99 @@
+[
+    {
+        "name": "Chip",
+        "breed": "Akita",
+        "size": "medium",
+        "gender": "female",
+        "price": 50,
+        "image": "images/akita.png"
+    },
+    {
+        "name": "Roger",
+        "breed": "Dachshund",
+        "size": "small",
+        "gender": "male",
+        "price": 45,
+        "image": "images/dachshund.png"
+    },
+    {
+        "name": "Betty",
+        "breed": "Pomeranian",
+        "size": "small",
+        "gender": "female",
+        "price": 30,
+        "image": "images/pomeranian.png"
+    },
+    {
+        "name": "Mochi",
+        "breed": "German Shepard",
+        "size": "large",
+        "gender": "female",
+        "price": 75,
+        "image": "images/german shepard.png"
+    },
+    {
+        "name": "George",
+        "breed": "Corgi",
+        "size": "medium",
+        "gender": "male",
+        "price": 25,
+        "image": "images/corgi.png"
+    },
+    {
+        "name": "Penelope",
+        "breed": "Husky",
+        "size": "large",
+        "gender": "female",
+        "price": 70,
+        "image": "images/husky.png"
+    },
+    {
+        "name": "Jack",
+        "breed": "Golden Retriever",
+        "size": "large",
+        "gender": "male",
+        "price": 60,
+        "image": "images/golden retriever.png"
+    },
+    {
+        "name": "Teddy",
+        "breed": "Yorkie",
+        "size": "small",
+        "gender": "male",
+        "price": 20,
+        "image": "images/yorkie.png"
+    },
+    {
+        "name": "Rocky",
+        "breed": "Bulldog",
+        "size": "medium",
+        "gender": "female",
+        "price": 80,
+        "image": "images/bulldog.png"
+    },
+    {
+        "name": "Lucy",
+        "breed": "Samoyed",
+        "size": "medium",
+        "gender": "female",
+        "price": 65,
+        "image": "images/samoyed.png"
+    },
+    {
+        "name": "Paw-paw",
+        "breed": "Chow Chow",
+        "size": "large",
+        "gender": "male",
+        "price": 100,
+        "image": "images/chow chow.png"
+    },
+    {
+        "name": "Jules",
+        "breed": "Pug",
+        "size": "medium",
+        "gender": "male",
+        "price": 15,
+        "image": "images/pug.png"
+    }
+
+]
