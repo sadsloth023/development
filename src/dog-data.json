@@ -2,96 +2,96 @@
     {
         "name": "Chip",
         "breed": "Akita",
-        "size": "medium",
-        "gender": "female",
+        "size": "Medium",
+        "gender": "Female",
         "price": 50,
         "image": "images/akita.png"
     },
     {
         "name": "Roger",
         "breed": "Dachshund",
-        "size": "small",
-        "gender": "male",
+        "size": "Small",
+        "gender": "Male",
         "price": 45,
         "image": "images/dachshund.png"
     },
     {
         "name": "Betty",
         "breed": "Pomeranian",
-        "size": "small",
-        "gender": "female",
+        "size": "Small",
+        "gender": "Female",
         "price": 30,
         "image": "images/pomeranian.png"
     },
     {
         "name": "Mochi",
         "breed": "German Shepard",
-        "size": "large",
-        "gender": "female",
+        "size": "Large",
+        "gender": "Female",
         "price": 75,
         "image": "images/german shepard.png"
     },
     {
         "name": "George",
         "breed": "Corgi",
-        "size": "medium",
-        "gender": "male",
+        "size": "Medium",
+        "gender": "Male",
         "price": 25,
         "image": "images/corgi.png"
     },
     {
         "name": "Penelope",
         "breed": "Husky",
-        "size": "large",
-        "gender": "female",
+        "size": "Large",
+        "gender": "Female",
         "price": 70,
         "image": "images/husky.png"
     },
     {
         "name": "Jack",
         "breed": "Golden Retriever",
-        "size": "large",
-        "gender": "male",
+        "size": "Large",
+        "gender": "Male",
         "price": 60,
         "image": "images/golden retriever.png"
     },
     {
         "name": "Teddy",
         "breed": "Yorkie",
-        "size": "small",
-        "gender": "male",
+        "size": "Small",
+        "gender": "Male",
         "price": 20,
         "image": "images/yorkie.png"
     },
     {
         "name": "Rocky",
         "breed": "Bulldog",
-        "size": "medium",
-        "gender": "female",
+        "size": "Medium",
+        "gender": "Female",
         "price": 80,
         "image": "images/bulldog.png"
     },
     {
         "name": "Lucy",
         "breed": "Samoyed",
-        "size": "medium",
-        "gender": "female",
+        "size": "Medium",
+        "gender": "Female",
         "price": 65,
         "image": "images/samoyed.png"
     },
     {
         "name": "Paw-paw",
         "breed": "Chow Chow",
-        "size": "large",
-        "gender": "male",
+        "size": "Large",
+        "gender": "Male",
         "price": 100,
         "image": "images/chow chow.png"
     },
     {
         "name": "Jules",
         "breed": "Pug",
-        "size": "medium",
-        "gender": "male",
+        "size": "Medium",
+        "gender": "Male",
         "price": 15,
         "image": "images/pug.png"
     }
