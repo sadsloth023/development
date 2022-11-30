@@ -108,10 +108,6 @@ function App() {
 
   }
 
-
-
-
-
  
 //what the app returns
   return(
@@ -166,7 +162,7 @@ function App() {
 
 
         <div class="dogcards" id = "right">
-          {filteredData2.map((item, index) => 
+          {sortedFilteredData.map((item, index) => 
             {return(
               <DogItem updateCart={updateCart} removeCart = {removeCart} item = {item} index = {index}/>
             )}
