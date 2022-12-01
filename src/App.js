@@ -2,6 +2,7 @@ import "./style.css";
 import { useState } from "react";
 import dogData from "./dog-data.json"
 import DogItem from "./components/DogItem.js"
+import Cart from "./components/Cart.js"
 
 // code to make image work (from studio)
 dogData.forEach((item) => {
@@ -105,10 +106,9 @@ function App() {
     else {
       return uid
     }
-
   }
 
- 
+
 //what the app returns
   return(
     <div id = "body">
@@ -122,8 +122,14 @@ function App() {
           </div>
         </div>
 
-        {// filters
-        }
+        <div class="dogcards" id = "right">
+          {sortedFilteredData.map((item, index) => 
+            {return(
+              <DogItem updateCart={updateCart} removeCart = {removeCart} item = {item} index = {index}/>
+            )}
+          )}
+        </div>
+
         <div id = "left">
           <div>
             <p>Current filters: {filterDisplay(genderType)} {filterDisplay(sizeType)}</p> 
@@ -143,30 +149,8 @@ function App() {
             <button class="leftbutton" onClick={() => selectSortType("High to Low")}>High to Low</button>
             <button class="leftbutton" onClick={() => selectSortType("None")}>Default Sort</button>
           
-          <h2>Cart</h2>
-            {Object.keys(cart).map((key) => {
-            return (
-              dogData[key].name + ": " + cart[key] + " " 
-            )
-            }
-            )}
-          <div> Total Price: {price}</div>
-
-        </div>
-
-
-
-
-
-
-
-
-        <div class="dogcards" id = "right">
-          {sortedFilteredData.map((item, index) => 
-            {return(
-              <DogItem updateCart={updateCart} removeCart = {removeCart} item = {item} index = {index}/>
-            )}
-          )}
+          <h2>Cart</h2>    
+          <Cart price = {price} dogData = {dogData} cart={cart}></Cart>  
         </div>
       </div>
     </div>
