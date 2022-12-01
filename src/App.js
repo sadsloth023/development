@@ -136,7 +136,7 @@ function App() {
             <p> Current sorting: {sortType}</p>
           </div>
             <h4>Filtering</h4>
-            <button class="leftbutton" onClick={ event => {selectSizeType("All"); selectGenderType("All")} }>Reset All</button>
+            <button class="leftbutton" onClick={ event => {selectSizeType("All"); selectGenderType("All")} }>Reset All Filters</button>
             <h5>Filter by Gender</h5>
             <button class="leftbutton" onClick={() => selectGenderType("Female")}>Female</button>
             <button class="leftbutton" onClick={() => selectGenderType("Male")}>Male</button>
