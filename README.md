@@ -14,14 +14,17 @@ In terms of the actual dog cards themselves, I formatted them so that all of the
 
 
 ### Organization of Components
+For this project there are 2 componenets: one for each dog item and one for the cart aggregator. Each dog item includes the following data values/elements: name, breed, size, gender, cost, an image, an add buttom, and a remove button. To render each of the dog items on the page, a map function is used. The cart aggregator is only used once on the page, and this component is a global variable. There are 2 main components to this: the total price and the cart. Moreover, dogData is also used in this aggregator componenet to render each dog's name. Both of these components are in the "components" folder.
+
+These components are both used in App.js, the main file for this website. This is where all of the filtering, sorting, and aggregating functions are.
 
 
 ### How Data is Passed Down Through Components
-Data is passed down through components via props. 
+Data is passed down through components via props. For DogItem.js, each dog item is passed through this component and then rendered in App.js. This allows us to render multiple dogs with different data in the same way/format (hence why all of the dog items look the same but contain different data). For Cart.js, although this is only used once, this component stores how the aggregator is formatted. Although the contents of the cart is updated in App.js, this is passed into a Cart item. 
 
 ### How the User Triggers State Changes
 The user triggers state changes when they decide to press any of the buttons on the website, namely:
-1. Sorting
-2. Filtering
-3. Cart modification
+1. Sorting: If a user presses on one of the three sorting buttons (High to Low, Low to High, Default) this will change the state of the sorting type which in turn changes how we sort the displayed dog items. "sortedFilteredData" is a variable that changes based on what the sortType is,and sortType changes with each button.
+2. Filtering: Filtering works in a similar manner to sorting; there are 2 possible attributes that a user can filter by: size and gender. I used 2 different state variables for each of these. When a user presses on either "Male" or "Female," this changes the genderType state. When a user presses on either "Small," "Medium," or "Large," this changes the sizeType state. This in turn changes the way that the data is filtered through using the matchType function. When a user presses "Reset All Filters," this changes both the sizeType and genderType state to "All," which does not filter out anything.
+3. Cart modification: When a user adds an item to their cart, this changes the cart component. The code first checks if the item is already in the cart. If it is, then it increases the quantity by 1 (and increases the total price by how much that item costs). If the item is not in the cart, then it adds the item to the cart and adds a quantity value of 1 (and increases the total price by how much that item costs).
 
